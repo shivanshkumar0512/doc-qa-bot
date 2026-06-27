@@ -17,7 +17,10 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 # CORS — only allow your frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # update this when deployed
+    allow_origins=[
+        "http://localhost:5173",
+        "https://doc-qa-bot.vercel.app"  # replace with your actual Vercel URL
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
