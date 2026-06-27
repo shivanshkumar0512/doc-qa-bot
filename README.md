@@ -2,7 +2,7 @@
 
 A full-stack AI-powered application that lets you upload any PDF and ask natural language questions about it. Built using Retrieval-Augmented Generation (RAG) — combining semantic search with a large language model to give accurate, document-grounded answers.
 
-> **Live demo:** _add your deployed URL here_
+> **Live demo:**  https://doc-qa-bot.vercel.app
 > **Tech stack:** FastAPI · ChromaDB · Gemini Embeddings · OpenRouter LLM · React · Vite · Tailwind CSS
 
 ---
