@@ -19,7 +19,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://doc-qa-bot.vercel.app"  # replace with your actual Vercel URL
+        "https://doc-qa-bot-five.vercel.app/"  
     ],
     allow_methods=["*"],
     allow_headers=["*"],
